@@ -1,0 +1,2324 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - Gamekit3D.CameraSettings
+    - Gamekit3D.CameraShake
+    - Gamekit3D.Cameras.LayerCullDistances
+    - Gamekit3D.CharacterStateSetter
+    - Gamekit3D.Checkpoint
+    - Gamekit3D.CheckpointGroup
+    - Gamekit3D.ChomperBehavior
+    - Gamekit3D.ChomperSMBAttack
+    - Gamekit3D.ChomperSMBFall
+    - Gamekit3D.ChomperSMBHit
+    - Gamekit3D.ChomperSMBIdle
+    - Gamekit3D.ChomperSMBPursuit
+    - Gamekit3D.ChomperSMBReturn
+    - Gamekit3D.ChomperSMBSpotted
+    - Gamekit3D.ContactDamager
+    - Gamekit3D.DamageZone
+    - Gamekit3D.Damageable
+    - Gamekit3D.DeathVolume
+    - Gamekit3D.DialogueCanvasController
+    - Gamekit3D.Dissolve
+    - Gamekit3D.EllenRespawnEffect
+    - Gamekit3D.EllenSetTargetableSMB
+    - Gamekit3D.EllenSpawn
+    - Gamekit3D.EllenStaffEffect
+    - Gamekit3D.EnemyController
+    - Gamekit3D.FixedUpdateFollow
+    - Gamekit3D.GameCommands.GameCommandReceiver
+    - Gamekit3D.GameCommands.GameplayCounter
+    - Gamekit3D.GameCommands.Platform
+    - Gamekit3D.GameCommands.SendGameCommand
+    - Gamekit3D.GameCommands.SendOnTriggerEnter
+    - Gamekit3D.GameCommands.SetGameObjectActive
+    - Gamekit3D.GameCommands.SimpleRotator
+    - Gamekit3D.GameCommands.SimpleTranslator
+    - Gamekit3D.GameCommands.SwitchMaterial
+    - Gamekit3D.GameCommands.ToggleGameObjectActive
+    - Gamekit3D.HealthUI
+    - Gamekit3D.InspectorHelpMessage
+    - Gamekit3D.InteractOnTrigger
+    - Gamekit3D.MeleeWeapon
+    - Gamekit3D.MenuActivityController
+    - Gamekit3D.MixerSliderLink
+    - Gamekit3D.OriginalPhrases
+    - Gamekit3D.PlayerController
+    - Gamekit3D.QualitySettingPostprocessProfileSwitch
+    - Gamekit3D.RandomAudioPlayer
+    - Gamekit3D.RandomStateSMB
+    - Gamekit3D.RangeWeapon
+    - Gamekit3D.ReplaceWithRagdoll
+    - Gamekit3D.ReplaceWithRagdollSMB
+    - Gamekit3D.SceneTransitionDestination
+    - Gamekit3D.ScreenFader
+    - Gamekit3D.Spit
+    - Gamekit3D.SpitterBehaviour
+    - Gamekit3D.SpitterSMBCooldown
+    - Gamekit3D.SpitterSMBFleeing
+    - Gamekit3D.SpitterSMBHit
+    - Gamekit3D.SpitterSMBIdle
+    - Gamekit3D.SpitterSMBShoot
+    - Gamekit3D.SpitterSMBSpotted
+    - Gamekit3D.StartUI
+    - Gamekit3D.TargetDistributor
+    - Gamekit3D.TimeEffect
+    - Gamekit3D.TransformFollow
+    - Gamekit3D.Translator
+    - PlayerInput
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineCollider
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachineFreeLook
+    - Cinemachine.CinemachineOrbitalTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
+    NavMeshComponents.dll:
+    - UnityEngine.AI.NavMeshSurface
+    NavMeshComponentsEditor.dll:
+    - UnityEditor.AI.NavMeshAssetManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Polybrush.dll:
+    - Polybrush.z_AdditionalVertexStreams
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.ProBuilderMesh
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+  sceneClasses:
+    Assets/ExampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11302}
+    - Class: 114
+      Script: {instanceID: 11304}
+    - Class: 114
+      Script: {instanceID: 11306}
+    - Class: 114
+      Script: {instanceID: 11316}
+    - Class: 114
+      Script: {instanceID: 11406}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11548}
+    - Class: 114
+      Script: {instanceID: 11570}
+    - Class: 114
+      Script: {instanceID: 11572}
+    - Class: 114
+      Script: {instanceID: 11578}
+    - Class: 114
+      Script: {instanceID: 11646}
+    - Class: 114
+      Script: {instanceID: 11714}
+    - Class: 114
+      Script: {instanceID: 11716}
+    - Class: 114
+      Script: {instanceID: 11746}
+    - Class: 114
+      Script: {instanceID: 11768}
+    - Class: 114
+      Script: {instanceID: 11806}
+    - Class: 114
+      Script: {instanceID: 11808}
+    - Class: 114
+      Script: {instanceID: 11838}
+    - Class: 114
+      Script: {instanceID: 11890}
+    - Class: 114
+      Script: {instanceID: 11994}
+    - Class: 114
+      Script: {instanceID: 12116}
+    - Class: 114
+      Script: {instanceID: 12130}
+    - Class: 114
+      Script: {instanceID: 12132}
+    - Class: 114
+      Script: {instanceID: 12142}
+    - Class: 114
+      Script: {instanceID: 12196}
+    - Class: 114
+      Script: {instanceID: 12302}
+    - Class: 114
+      Script: {instanceID: 12322}
+    - Class: 114
+      Script: {instanceID: 12328}
+    - Class: 114
+      Script: {instanceID: 12338}
+    - Class: 114
+      Script: {instanceID: 12370}
+    - Class: 114
+      Script: {instanceID: 12458}
+    - Class: 114
+      Script: {instanceID: 12554}
+    - Class: 114
+      Script: {instanceID: 12590}
+    - Class: 114
+      Script: {instanceID: 12626}
+    - Class: 114
+      Script: {instanceID: 12722}
+    - Class: 114
+      Script: {instanceID: 12724}
+    - Class: 114
+      Script: {instanceID: 12796}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 12938}
+    - Class: 114
+      Script: {instanceID: 12972}
+    - Class: 114
+      Script: {instanceID: 13008}
+    - Class: 114
+      Script: {instanceID: 13010}
+    - Class: 114
+      Script: {instanceID: 13046}
+    - Class: 114
+      Script: {instanceID: 13052}
+    - Class: 114
+      Script: {instanceID: 13088}
+    - Class: 114
+      Script: {instanceID: 13100}
+    - Class: 114
+      Script: {instanceID: 13132}
+    - Class: 114
+      Script: {instanceID: 13136}
+    - Class: 114
+      Script: {instanceID: 13160}
+    - Class: 114
+      Script: {instanceID: 13216}
+    - Class: 114
+      Script: {instanceID: 13274}
+    - Class: 114
+      Script: {instanceID: 13308}
+    - Class: 114
+      Script: {instanceID: 13314}
+    - Class: 114
+      Script: {instanceID: 13398}
+    - Class: 114
+      Script: {instanceID: 13432}
+    - Class: 114
+      Script: {instanceID: 13518}
+    - Class: 114
+      Script: {instanceID: 13534}
+    - Class: 114
+      Script: {instanceID: 13544}
+    - Class: 114
+      Script: {instanceID: 13634}
+    - Class: 114
+      Script: {instanceID: 13696}
+    - Class: 114
+      Script: {instanceID: 13706}
+    - Class: 114
+      Script: {instanceID: 13772}
+    - Class: 114
+      Script: {instanceID: 13844}
+    - Class: 114
+      Script: {instanceID: 13866}
+    - Class: 114
+      Script: {instanceID: 13892}
+    - Class: 114
+      Script: {instanceID: 13902}
+    - Class: 114
+      Script: {instanceID: 13976}
+    - Class: 114
+      Script: {instanceID: 13984}
+    - Class: 114
+      Script: {instanceID: 14050}
+    - Class: 114
+      Script: {instanceID: 14156}
+    - Class: 114
+      Script: {instanceID: 14198}
+    - Class: 114
+      Script: {instanceID: 14202}
+    - Class: 114
+      Script: {instanceID: 14262}
+    - Class: 114
+      Script: {instanceID: 14316}
+    - Class: 114
+      Script: {instanceID: 14386}
+    - Class: 114
+      Script: {instanceID: 14468}
+    - Class: 114
+      Script: {instanceID: 14482}
+    - Class: 114
+      Script: {instanceID: 14500}
+    - Class: 114
+      Script: {instanceID: 14528}
+    - Class: 114
+      Script: {instanceID: 14544}
+    - Class: 114
+      Script: {instanceID: 14708}
+    - Class: 114
+      Script: {instanceID: 14714}
+    - Class: 114
+      Script: {instanceID: 14742}
+    - Class: 114
+      Script: {instanceID: 14870}
+    - Class: 114
+      Script: {instanceID: 14908}
+    - Class: 114
+      Script: {instanceID: 14926}
+    - Class: 114
+      Script: {instanceID: 14936}
+    - Class: 114
+      Script: {instanceID: 14942}
+    - Class: 114
+      Script: {instanceID: 15018}
+    - Class: 114
+      Script: {instanceID: 15034}
+    - Class: 114
+      Script: {instanceID: 15048}
+    - Class: 114
+      Script: {instanceID: 15092}
+    - Class: 114
+      Script: {instanceID: 15158}
+    - Class: 114
+      Script: {instanceID: 15204}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: c72598f4564540caea63ca9ce9b645a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InventoryController
+  - hash:
+      serializedVersion: 2
+      Hash: b09748262f062e29c3f21f4b69798d0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TranslatedText
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 52bdc056f554824c90f6228abe5faae9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InteractOnCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeDilationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bc0e5c67b4118256e673efc268622cb4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TimeEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 6ae7531e7b3cfdafb7f6d0b51ac81e3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Spit
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 626925ef558787b2d85c809198164d19
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 6819ab0911c58986f86ab24fc9091f63
+    assemblyName: WorldBuildingRuntime.dll
+    namespaceName: Gamekit3D.WorldBuilding
+    className: MegaSmartObject
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Polybrush.dll
+    namespaceName: UnityEngine.Polybrush
+    className: ZoomOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 8a8d8908050b87cd2bbb7b6f732d35e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 0d233b1f568e2ef64451c2de1fa5d033
+    assemblyName: WorldBuildingRuntime.dll
+    namespaceName: Gamekit3D.WorldBuilding
+    className: Variations
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: PersistentDataManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9c7c87712e298256d276eb96e02a57b1
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PreferenceDictionary
+  - hash:
+      serializedVersion: 2
+      Hash: 2bb630f37095aa4b45204e8ebca77a4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SetCursorMode
+  - hash:
+      serializedVersion: 2
+      Hash: f93daae295f581aed0b8dabb593e4a55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ContactDamager
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 023557094d80e81f69bd70a2ac82b366
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: Collectable
+  - hash:
+      serializedVersion: 2
+      Hash: e1e096ee4d22df93309ccb6a98eb2c02
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SimpleRotator
+  - hash:
+      serializedVersion: 2
+      Hash: b88d96a8acb7c0f75c516e73ef7d5d9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EnemyController
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: fe1071038560eb2ef1a7d110ba9fb9a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Spinner
+  - hash:
+      serializedVersion: 2
+      Hash: bcf983447c06b837a846626fb441241d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: GameplayCounter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBHit
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 14507a8a9ceaea479622b0f80b5fa53f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SwitchMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 395f4b48f2e176e021f0e1e21a30ed26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: MixerSliderLink
+  - hash:
+      serializedVersion: 2
+      Hash: c80bc562de10fdbf8b2e9bcb89d80421
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: afdca352bb57d63d019597d61517f821
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: TriggerUnityEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBPursuit
+  - hash:
+      serializedVersion: 2
+      Hash: d9039d7df720cc7229f3bcde53cadc1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: RandomAudioPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 02c2f77f78d48f634e1da6e6df05b146
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnBecameVisible
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 234235b9fb07320d11497e08a726cc56
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ac56f31090f5ff6555b4ec46d2421b90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CameraSettings
+  - hash:
+      serializedVersion: 2
+      Hash: f6633ace6e530c0000f2ac6da4269c52
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: PolyShape
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: b5eb08b578a2f2d80bb106cbe65ab501
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: f65375b9d0adaa76a33453cde06a20b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: OpenURL
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshAgentControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GameObjectTeleporter
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 3ef7cc4ec7c18ed8272bfb86feab8ba6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: UIAutoscroll
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 7ef4b463dee3fe5326b5dff22ffda98e
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 36f96c190e244321e128769d9c5120ac
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ProBuilderMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c91c24b7d3b6b2991572f426b51baff3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SnapToGround
+  - hash:
+      serializedVersion: 2
+      Hash: 02c2f77f78d48f634e1da6e6df05b146
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendGameCommand
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioSnapshotTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0b2dd8d07400f4a572a6a034faa71230
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierSMBRangeAttack
+  - hash:
+      serializedVersion: 2
+      Hash: d8b4f9e0da71efc7b827a722d9fe9cf9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SunSkybox
+  - hash:
+      serializedVersion: 2
+      Hash: 8dbfd261c01275671d183db194c76da3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: FixedUpdateFollow
+  - hash:
+      serializedVersion: 2
+      Hash: f53e05c4415f34651eecb24b484607aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CharacterStateSetter
+  - hash:
+      serializedVersion: 2
+      Hash: c31f2ce5a371dd7b9ec7ae407e53580a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ec5beab32883201b96e7dca26b5560bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioSnapshotClip
+  - hash:
+      serializedVersion: 2
+      Hash: 20049fce35aaf9ce84c18606026d430f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StandardMaterialEmissionClip
+  - hash:
+      serializedVersion: 2
+      Hash: 63cd17060d190cf828e8189f74ac3d90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SetAnimatorTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBAttack
+  - hash:
+      serializedVersion: 2
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 93951db5bbc3a8c806fe33b4ae08827d
+    assemblyName: Unity.Polybrush.dll
+    namespaceName: UnityEngine.Polybrush
+    className: OverlayRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 55ddea549304a5aeca921513d741f21f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: Collector
+  - hash:
+      serializedVersion: 2
+      Hash: 5d7193972d3dfea3fa485bc9653f270c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: StartScreenSpriteOffsetter
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 070c9e9e532a7f5f46a6c365d77ee28c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: KeyUI
+  - hash:
+      serializedVersion: 2
+      Hash: 245cd23594d1b5229da5172b3ee69b73
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: Platform
+  - hash:
+      serializedVersion: 2
+      Hash: fb70f07c52fc0817edd54327b41ca12c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: c8d914fe74add5c8540f33b96efb6d34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBIdle
+  - hash:
+      serializedVersion: 2
+      Hash: 32f6d1d5a09e5c94c633a32edd3e6836
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: BezierShape
+  - hash:
+      serializedVersion: 2
+      Hash: 245cd23594d1b5229da5172b3ee69b73
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SoundTrackVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 3d7814060e47cf1757ece539aaf67313
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: DialogueCanvasController
+  - hash:
+      serializedVersion: 2
+      Hash: 52bdc056f554824c90f6228abe5faae9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InteractionCollision
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: d3546fe0739b29da810b523fd8ee8af5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CutsceneScriptControlClip
+  - hash:
+      serializedVersion: 2
+      Hash: 50fcb66528785272c48d110d0e201705
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CaptureDepthTexture
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: d4a493bb4307ddafb51da21aff3cd832
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6495bd42cba5848c4309d0fdfc402dca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NavMeshAgentControlClip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: GameCommandReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextSwitcherTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TransformTweenTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8ea6074360f433b35d8ce4d9d7465aa7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: FPSTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 6ae7531e7b3cfdafb7f6d0b51ac81e3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierGrenade
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 68f8a44951f2b48624bd840a98a80709
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InventoryItem
+  - hash:
+      serializedVersion: 2
+      Hash: 9dce8db79050afe0bd754b9618dc9744
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: MeleeWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: ac2d9a3cb7932c9c0c0d9abba3de6121
+    assemblyName: WorldBuildingRuntime.dll
+    namespaceName: Gamekit3D.WorldBuilding
+    className: InstancePainter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5c94ce4be72fc039fa2442a103e04ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EffectEvents
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e995ba5c6f7fd820f8b4a279f7f790ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: StartPlayableDirector
+  - hash:
+      serializedVersion: 2
+      Hash: 1cdde0c3d8008dfe81d27e4c955d4fe7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaterialSwitcherTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: e22f78c663d8e42916153f85cbed117c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.Cameras
+    className: LayerCullDistances
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CopyShadowMap
+  - hash:
+      serializedVersion: 2
+      Hash: 0192a4cd09965fd220e96acff00ac3f0
+    assemblyName: SimpleSFXRuntime.dll
+    namespaceName: Gamekit3D.SimpleSFX
+    className: SimpleFXSynth
+  - hash:
+      serializedVersion: 2
+      Hash: b7d5aa9ca6ea5707502c66107bea0050
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierShield
+  - hash:
+      serializedVersion: 2
+      Hash: 9869d29a5e06e89901b88d69e4225ddf
+    assemblyName: Unity.Polybrush.dll
+    namespaceName: Polybrush
+    className: z_AdditionalVertexStreams
+  - hash:
+      serializedVersion: 2
+      Hash: c3b0ed1f964496f8d736fcaf3481361b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: OriginalPhrases
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SavedData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierSMBTurning
+  - hash:
+      serializedVersion: 2
+      Hash: 3c2b11a8027702f7fef4a819d8b9191a
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 4d472dc43bba73c1a848f99f4003ad29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ModulatedLight
+  - hash:
+      serializedVersion: 2
+      Hash: e88f22af0bf87381b9191a52893d3a3a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeMachineClip
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: ad2c6bc3fefd49fd79e1e4f93d1ed2fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InspectorHelpMessage
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StandardMaterialEmissionTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4442a61e9b6115e214893ba0d984e84e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextSwitcherClip
+  - hash:
+      serializedVersion: 2
+      Hash: 2d51c60023b0f26470f6c8c59c630109
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeDilationClip
+  - hash:
+      serializedVersion: 2
+      Hash: 3c6e0f4c7d793cbe01e8995f9aabc55c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InteractOnButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EllenRespawnEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 02c2f77f78d48f634e1da6e6df05b146
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnBecameInvisible
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 6987e53805e8a29a4a553f91e9a02ba2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: babb56e35a67f1c97582b9e5ad2e0043
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SoundTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 7ca765ad7969aae95e8011264b9c4046
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBCooldown
+  - hash:
+      serializedVersion: 2
+      Hash: c8d914fe74add5c8540f33b96efb6d34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBIdle
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: TriggerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9389e944eb81a3a9df56fcdb09ce6a9
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColliderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: c5baea19a138ed95b4fa3e56f16950dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: DamageZone
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBSpotted
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBReturn
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 66ba8ea0702d594c75b3f524c1af286e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EllenSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 5ea0e1ca5a5591114123e9219628299f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SimpleTranslator
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 620b9a0116c8a86fb9806bb8cc5ac2fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: Teleporter
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: 7a1a893ac873355afb7c8ed3bfa12b8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InteractionTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 94ce7e5d98b864b488553e335ac910bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: StartUI
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 290bc3014b87d71632bf07995ca5c1d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: WaterRipple
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Checkpoint
+  - hash:
+      serializedVersion: 2
+      Hash: 6cba2784b2895ec8f44bd08a78aa273d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ScreenFader
+  - hash:
+      serializedVersion: 2
+      Hash: fd095a808cf397f533817f44ac0ddd7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: ParticleSystemEmit
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 3548707c97636465222ccab9069da236
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GunnerLightning
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBFall
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierSMBPursuit
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetLocationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TransformFollow
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6755be88c7df8ca588fa04d5808dc1f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SimulateParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: ed5303368b69ac1d3bea7a16482574ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TransitionPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ChomperSMBHit
+  - hash:
+      serializedVersion: 2
+      Hash: 63500ed846296deb699552018966532e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SetGameObjectActive
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBFleeing
+  - hash:
+      serializedVersion: 2
+      Hash: fce83bf44414cf3dade62bd4b60e7c79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightControlClip
+  - hash:
+      serializedVersion: 2
+      Hash: bf081570d6c1073af7090fb86a14e290
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.Cameras
+    className: EditorCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ReplaceWithRagdollSMB
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: f53db25758732b044a67d08e3bd4ba11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d6a8e9bec3160a152b9b2710593d3caa
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: ColorPalette
+  - hash:
+      serializedVersion: 2
+      Hash: 77ce464bfc82fdab71c5e5d1a5d8bba1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TargetDistributor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFaderTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 88956bd363a1a7d690deeeea3bc804ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SceneController
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: d5b20eb1796b39c3552dfeaf7754cc73
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EllenSetTargetableSMB
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 76906899216bca6c85593c169270022e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: SendOnTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c4117cf32d2e7797e9e05272a419cd6e
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7f0399dd966b73bc02ad8c3baf81729
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: PlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: d5f5be686f37528455341b85cef52722
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ReplaceWithRagdoll
+  - hash:
+      serializedVersion: 2
+      Hash: 48711415a4fcff9b8277b85f7848ef0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SceneTransitionDestination
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: ebd3381e41c42edd95f605ec5e0f3078
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenFaderClip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: OnTeleportEvent
+  - hash:
+      serializedVersion: 2
+      Hash: df76de5fb2b27007d514fdb38b91cf89
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CheckpointGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierSMBPunch
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 879fb0c86ee3c0e300268c63280d8a34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneReloaderClip
+  - hash:
+      serializedVersion: 2
+      Hash: 301f4da7cc3b301c161d089f9d22efed
+    assemblyName: Unity.ProBuilder.dll
+    namespaceName: UnityEngine.ProBuilder
+    className: Entity
+  - hash:
+      serializedVersion: 2
+      Hash: 5c091541ff1e9190a9636e221b9af467
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EllenStaffEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 2c78508d67df37094377b29be4b72d85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ParticleDeactivator
+  - hash:
+      serializedVersion: 2
+      Hash: 5cf6baf41d2908691996f0f85a57db5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: PlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 5d27f7db2b285dbf752be2fbcba9ee80
+    assemblyName: Skybox3DRuntime.dll
+    namespaceName: Gamekit3D.SkyboxVolume
+    className: Skybox3D
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GrenadierSMBIdle
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: c0201dbecd85f700bcdff493a272631d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 8971c20c9b39fc4d3de2362b2428f85c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Damageable
+  - hash:
+      serializedVersion: 2
+      Hash: ceaf4ec6f7be2e618f2afdbfbaad6948
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: RangeWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: 8001a5f7502aab37e42206da015e6914
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f130ed5e4947d3cf3fa605715ccb115e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: RigidbodyDelayedForce
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 3fd9587c2628ffd8428a02a62258502f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: QualitySettingPostprocessProfileSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: f564fa2f4d5da867141aeaf0c2fdcb0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ScenarioController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBSpotted
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeMachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 945527140db474e7974ef9842ac6c2ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Translator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: MenuActivityController
+  - hash:
+      serializedVersion: 2
+      Hash: 6442775b1aa2c353ce4eb333e894fa7b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetLocationClip
+  - hash:
+      serializedVersion: 2
+      Hash: 37ed31245abccd0dc7cc3ab239108c27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Dissolve
+  - hash:
+      serializedVersion: 2
+      Hash: 142c5e4675a0382bb21aabc9d6f1ba00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: FootStepEffect
+  - hash:
+      serializedVersion: 2
+      Hash: e02eadf7eb71b839ece0b14ab3b52f55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: ToggleGameObjectActive
+  - hash:
+      serializedVersion: 2
+      Hash: adaf4975010ef52327296a54fcd5afe1
+    assemblyName: WorldBuildingRuntime.dll
+    namespaceName: Gamekit3D.WorldBuilding
+    className: SmartObject
+  - hash:
+      serializedVersion: 2
+      Hash: c8affe4dfbd406c57c86bb0fedba58bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: QualitySettingCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 407303d9e8407d2dbbb27245e20fce85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D.GameCommands
+    className: RespawnPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 8f92dcaa93b68e7ae0dd6ada418c651f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: AmbientAudio
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0d7dfcd9b40432093e36c9d05c5fcf77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: TranslatedPhrases
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CutsceneScriptControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SkyboxLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 45ddf8c00094b55d30f8d4467c4310b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18f9c4379f9c3b7b4b46e29840b2c9ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: HealthUI
+  - hash:
+      serializedVersion: 2
+      Hash: c042aadbc09f16545c490ddfea25c79e
+    assemblyName: Unity.Polybrush.dll
+    namespaceName: UnityEngine.Polybrush
+    className: PolybrushMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 2937233a786b94a516398758cbe254f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: MirrorReflection
+  - hash:
+      serializedVersion: 2
+      Hash: b58b24a011be2f4924e671af4a87723e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: AudioPlayerOnEnable
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: a86edcdc011cb2ad6483db4f5ff323a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: b00be647e445ae9129397f46b8ab6f32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: ScreenshotWithAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: 931cf289e91b119a176575ffe8e92a42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimelineTriggerZone
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SpitterSMBShoot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: CameraShake
+  - hash:
+      serializedVersion: 2
+      Hash: eeb22420a11824d05d6588a3e4c45e16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: RandomStateSMB
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: d6b33903b5051f41dc76bfb00ba7e9c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: EffectStateMachineBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 21968df35fec0b8dfbd2abeeb5ddd271
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: Respawner
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 901b3a6ff8e74ed4b3e6bee88bad9cbc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: DeathVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 80e06429b7727ec2f036561d3c4970fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: GlobalShaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ffdbd5802c2482a072a88f428ad3ca9d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 44f397d699a0e8f08489961858ad0435
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TransformTweenClip
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 94a6212bc97ed891bf46c9c21a0658cc
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 709b120bab5f0080de2efecc1f915c44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaterialSwitcherClip
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: BatchProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: SceneControllerWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: ddd78241da263535ba0aa9b0aa0deb03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gamekit3D
+    className: InteractOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneReloaderTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 19
+  scenePathNames:
+  - Assets/ExampleScene.unity
+  playerPath: F:/Project/Release/3dGameKit/New Unity Project.exe
