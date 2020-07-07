@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 645
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 135
+  controlID: 131
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 645
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 136
+  controlID: 132
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 137
+  controlID: 133
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper
+    - Assets/3DGamekitLite/Prefabs/SceneControl
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets/3DGamekitLite/Prefabs/Characters/Enemies/Chomper
+  - Assets/3DGamekitLite/Prefabs/SceneControl
   m_LastFoldersGridSize: 62
   m_LastProjectPath: F:\Project\RPG\3D Game Kit
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: 0c5d0000
-    m_LastClickedID: 23820
-    m_ExpandedIDs: 00000000c0570000c2570000c4570000c6570000c8570000f657000000ca9a3b
+    scrollPos: {x: 0, y: 168.23119}
+    m_SelectedIDs: ee4e0000
+    m_LastClickedID: 20206
+    m_ExpandedIDs: 00000000c64e0000c84e0000cc4e0000ce4e0000d04e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c0570000c2570000c4570000c6570000c8570000
+    m_ExpandedIDs: 00000000c64e0000c84e0000ca4e0000cc4e0000ce4e0000d04e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 33
+  m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -501,10 +501,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 239.36}
-      m_SelectedIDs: 78580000
-      m_LastClickedID: 22648
-      m_ExpandedIDs: f6c4ffffbcfaffff48580000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b22affff
+      m_LastClickedID: -54606
+      m_ExpandedIDs: bcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.2129567, y: 1.0318372, z: 7.95}
+    m_Target: {x: -7.5, y: 0, z: -4.5}
     speed: 2
-    m_Value: {x: 3.2129567, y: 1.0318372, z: 7.95}
+    m_Value: {x: -7.5, y: 0, z: -4.5}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -616,9 +616,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 9.429769
+    m_Target: 10
     speed: 2
-    m_Value: 9.429769
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
